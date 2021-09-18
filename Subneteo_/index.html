@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subneteo</title>
+    <script src="js/calculos.js" ></script>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+    <body>
+        <br>
+        <br>
+        <br>
+            <h1>Subneteo</h1>
+        <br>
+            <table>
+                    <td>
+                        <label>Ingrese la IP</label>
+                    </td>
+                    <td>
+                        <input type="formato" class="formato" id="ip">
+                    </td>
+                    <td>
+                        <label>Ingrese el número de subredes</label>
+                    </td>
+                    <td>
+                        <input type="formato" class="formato" id="subred">
+                    </td>
+                    <td>
+                        <input type="button" class="boton" value="Calcular" onclick="prueba()" >
+                    </td>
+                    <td>
+                        
+                    </td>
+                </tr>
+
+            </table>
+        <br>
+        <div class="perfil">
+            <table>
+            <tr>
+                    <td>
+                        <label>IP binario</label>
+                    </td>
+                    <td>
+                        <input type="text" class="formato" id="ipbin" readonly>
+                    </td>
+            </tr>
+            <tr>
+                    <td>
+                        <label>Clase</label>  
+                    </td>
+                    <td>
+                        <input type="text" class="formato" id="clase" readonly>
+                    </td>
+            </tr>
+            <tr>
+                    <td>
+                        <label>Máscara de subred</label>
+                    </td>
+                    <td>
+                        <input type="text" class="formato" id="maskadap" readonly>
+                    </td>
+            </tr>
+            <tr>
+                    <td>
+                        <label>Máscara de subred binaria</label>
+                    </td>
+                    <td>
+                        <input type="text" class="formato" id="maskbin" readonly>
+                    </td>
+            </tr>
+        </div>    
+    </body>
+</html>
